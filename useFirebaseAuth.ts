@@ -43,7 +43,7 @@ export const createUserByEmailAndPassword = async (
 export const signIn = (email: string, password: string) => {
   const isValidEmail = emailValidator(email);
   const isValidPassword = password?.length >= 8;
-  if (isValidEmail && isValidPassword) {
+  if (isValidEmail.length === 0 && isValidPassword) {
     return auth().signInWithEmailAndPassword(email, password);
   }
 
