@@ -93,4 +93,4 @@ todo-fire can be installed as follows:
 [valtio]: https://github.com/pmndrs/valtio
 [typescript]: https://github.com/microsoft/TypeScript
 [react-native-env]: https://reactnative.dev/docs/environment-setup?guide=native
-[spanner-paper]: http://research.google/pubs/pub52292.pdf
+[spanner-paper]: https://research.google/pubs/firestore-the-nosql-serverless-database-for-the-application-developer/
